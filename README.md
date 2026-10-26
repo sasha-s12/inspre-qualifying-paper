@@ -4,11 +4,11 @@ This repository contains the document and R code used for the simulation study c
 
 ## This repository includes 
 
-1. Qualifying Paper: The qualifying paper itself containing the problem definition, significance, limitations, proposed extension, simulation results, and discussion.
+1. [Qualifying Paper](Qualifying_Paper_1.pdf): The qualifying paper itself containing the problem definition, significance, limitations, proposed extension, simulation results, and discussion.
 
-2. Simulation code: The R code used to simulate the gene regulatory networks, estimate total causal effects using direct IV estimation and sparse reconstruction, and evaluate their performance.
+2. [Simulation code](simulation.R): The R code used to simulate the gene regulatory networks, estimate total causal effects using direct IV estimation and sparse reconstruction, and evaluate their performance.
 
-3. fixed_inspre_cv.R: A modified version of the inspre package's cross-validation prediction function that uses the estimated direct causal-effect matrix (G_hat) instead of the estimated total causal-effect matrix (R_hat) when calculating structural-model prediction errors.
+3. [Corrected Cross-Validation Function](fixed_inspre_cv.R): A modified version of the inspre package's cross-validation prediction function that uses the estimated direct causal-effect matrix (G_hat) instead of the estimated total causal-effect matrix (R_hat) when calculating structural-model prediction errors.
 
-
+4. [README](README.md): This file, outlining the contents of the repository! 
 
